@@ -21,7 +21,7 @@
 
    ```bash
    export WS63_SDK="填入实际的 bearpi-pico_h3863 SDK 路径"
-   export WS63_DEBUG="填入实际的 ws63_dbg 路径"
+   export WS63_DEBUG="填入实际的 ws63-dbg 路径"
    cd "$WS63_DEBUG"
    python3 cmsisdap.py
    python3 ws63dbg.py
@@ -41,7 +41,7 @@
 
    ```bash
    export WS63_SDK="填入实际的 bearpi-pico_h3863 SDK 路径"
-   export WS63_DEBUG="填入实际的 ws63_dbg 路径"
+   export WS63_DEBUG="填入实际的 ws63-dbg 路径"
    cd "$WS63_SDK"
    tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gdb \
        -x "$WS63_DEBUG/ws63.gdbinit" \

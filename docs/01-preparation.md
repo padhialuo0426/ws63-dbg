@@ -30,7 +30,7 @@ SDK 的编译环境按 [小熊派官方文档](https://www.bearpi.cn/core_board/
 
 ```bash
 export WS63_SDK="填入实际的 bearpi-pico_h3863 SDK 路径"
-export WS63_DEBUG="填入实际的 ws63_dbg 路径"
+export WS63_DEBUG="填入实际的 ws63-dbg 路径"
 ```
 
 后续命令通过这两个变量访问 SDK 和调试器工程。其余工程路径均相对于命令执行目录，

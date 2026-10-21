@@ -19,7 +19,7 @@ SDK 的部分预编译函数缺少或包含不准确的调用帧信息（CFI）�
 
    ```bash
    export WS63_SDK="填入实际的 bearpi-pico_h3863 SDK 路径"
-   export WS63_DEBUG="填入实际的 ws63_dbg 路径"
+   export WS63_DEBUG="填入实际的 ws63-dbg 路径"
    cd "$WS63_DEBUG"
    python3 -m venv .venv
    . .venv/bin/activate
@@ -48,7 +48,7 @@ SDK 的部分预编译函数缺少或包含不准确的调用帧信息（CFI）�
 
    ```bash
    export WS63_SDK="填入实际的 bearpi-pico_h3863 SDK 路径"
-   export WS63_DEBUG="填入实际的 ws63_dbg 路径"
+   export WS63_DEBUG="填入实际的 ws63-dbg 路径"
    cd "$WS63_SDK"
    tools/bin/compiler/riscv/cc_riscv32_musl_105/cc_riscv32_musl_fp/bin/riscv32-linux-musl-gdb \
        -x "$WS63_DEBUG/ws63.gdbinit" "$WS63_DEBUG/artifacts/manual/ws63-debug.elf"

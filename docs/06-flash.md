@@ -23,7 +23,7 @@
 
    ```bash
    export WS63_SDK="填入实际的 bearpi-pico_h3863 SDK 路径"
-   export WS63_DEBUG="填入实际的 ws63_dbg 路径"
+   export WS63_DEBUG="填入实际的 ws63-dbg 路径"
    cd "$WS63_DEBUG"
    python3 ws63flash.py info
    ```

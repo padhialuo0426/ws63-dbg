@@ -19,7 +19,7 @@
 
 ```bash
 export WS63_SDK="填入实际的 bearpi-pico_h3863 SDK 路径"
-export WS63_DEBUG="填入实际的 ws63_dbg 路径"
+export WS63_DEBUG="填入实际的 ws63-dbg 路径"
 ```
 
 WS63 上电后，GPIO_13/14 默认为普通 GPIO。固件必须将它们设为 SWD 功能（复用模式 4），
